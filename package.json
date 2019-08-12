@@ -6,8 +6,7 @@
     "start": "node ./bin/www.js",
     "dev": "node_modules/nodemon/bin/nodemon.js ./bin/www.js",
     "test": "export NODE_ENV=test || SET NODE_ENV=test && jest",
-    "_test": "export NODE_ENV=test || SET NODE_ENV=test && jest --watchAll",
-    "heroku-postbuild": "npm install"
+    "_test": "export NODE_ENV=test || SET NODE_ENV=test && jest --watchAll"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
